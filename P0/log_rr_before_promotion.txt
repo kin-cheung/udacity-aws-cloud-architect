@@ -1,0 +1,55 @@
+
+20200611 03:21:10,ip-172-23-1-249,admin,10.2.11.210,21,0,CONNECT,udacity,,0
+20200611 03:21:10,ip-172-23-1-249,admin,10.2.11.210,21,159,QUERY,udacity,'/* mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout',0
+20200611 03:21:10,ip-172-23-1-249,admin,10.2.11.210,21,160,QUERY,udacity,'SHOW WARNINGS',0
+20200611 03:21:10,ip-172-23-1-249,admin,10.2.11.210,21,161,QUERY,udacity,'SET NAMES utf8',0
+20200611 03:21:10,ip-172-23-1-249,admin,10.2.11.210,21,162,QUERY,udacity,'SET character_set_results = NULL',0
+20200611 03:21:10,ip-172-23-1-249,admin,10.2.11.210,21,163,QUERY,udacity,'SET autocommit=1',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,21,164,QUERY,udacity,'SET sql_mode=\'NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES\'',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,21,165,QUERY,udacity,'SHOW WARNINGS',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,21,166,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Main */ SET autocommit=1',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,21,167,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Main */ SELECT DATABASE()',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,0,CONNECT,udacity,,0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,168,QUERY,udacity,'/* mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,169,QUERY,udacity,'SHOW WARNINGS',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,170,QUERY,udacity,'SET NAMES utf8',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,171,QUERY,udacity,'SET character_set_results = NULL',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,172,QUERY,udacity,'SET autocommit=1',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,173,QUERY,udacity,'SET sql_mode=\'NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES\'',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,174,QUERY,udacity,'SHOW WARNINGS',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,175,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SET autocommit=1',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,176,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SELECT DATABASE()',0
+20200611 03:21:11,ip-172-23-1-249,admin,10.2.11.210,22,177,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SHOW ENGINES',0
+20200611 03:21:12,ip-172-23-1-249,admin,10.2.11.210,22,178,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SHOW CHARSET',0
+20200611 03:21:12,ip-172-23-1-249,admin,10.2.11.210,22,179,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SHOW COLLATION',0
+20200611 03:21:12,ip-172-23-1-249,admin,10.2.11.210,22,180,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SELECT @@GLOBAL.character_set_server,@@GLOBAL.collation_server',0
+20200611 03:21:12,ip-172-23-1-249,admin,10.2.11.210,22,181,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SHOW VARIABLES LIKE \'lower_case_table_names\'',0
+20200611 03:21:12,ip-172-23-1-249,admin,10.2.11.210,22,182,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ show databases',0
+
+
+20200611 03:21:32,ip-172-23-1-249,admin,10.2.11.210,23,0,CONNECT,udacity,,0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,194,QUERY,udacity,'/* mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be ) */SELECT  @@session.auto_increment_increment AS auto_increment_increment, @@character_set_client AS character_set_client, @@character_set_connection AS character_set_connection, @@character_set_results AS character_set_results, @@character_set_server AS character_set_server, @@collation_server AS collation_server, @@init_connect AS init_connect, @@interactive_timeout AS interactive_timeout, @@license AS license, @@lower_case_table_names AS lower_case_table_names, @@max_allowed_packet AS max_allowed_packet, @@net_buffer_length AS net_buffer_length, @@net_write_timeout AS net_write_timeout, @@query_cache_size AS query_cache_size, @@query_cache_type AS query_cache_type, @@sql_mode AS sql_mode, @@system_time_zone AS system_time_zone, @@time_zone AS time_zone, @@tx_isolation AS tx_isolation, @@wait_timeout AS wait_timeout',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,195,QUERY,udacity,'SHOW WARNINGS',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,196,QUERY,udacity,'SET NAMES utf8',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,197,QUERY,udacity,'SET character_set_results = NULL',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,198,QUERY,udacity,'SET autocommit=1',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,199,QUERY,udacity,'SET sql_mode=\'NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES\'',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,200,QUERY,udacity,'SHOW WARNINGS',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,201,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ SET autocommit=1',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,202,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ select @@session.tx_read_only',0
+20200611 03:21:33,ip-172-23-1-249,admin,10.2.11.210,23,203,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ use udacity',0
+20200611 03:21:35,ip-172-23-1-249,admin,10.2.11.210,23,204,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ select @@session.tx_read_only',0
+20200611 03:21:35,ip-172-23-1-249,admin,10.2.11.210,23,206,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ INSERT into EMPLOYEE (NAME) values (\'Bob Smith\')',1290
+20200611 03:21:35,ip-172-23-1-249,admin,10.2.11.210,23,207,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ SHOW WARNINGS',0
+20200611 03:21:39,ip-172-23-1-249,admin,10.2.11.210,23,208,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ SELECT * FROM EMPLOYEE e  LIMIT 0, 200',0
+20200611 03:21:39,ip-172-23-1-249,admin,10.2.11.210,22,209,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SHOW FULL TABLES FROM udacity WHERE Tables_in_udacity LIKE \'EMPLOYEE\'',0
+20200611 03:21:39,ip-172-23-1-249,admin,10.2.11.210,22,210,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SELECT * FROM information_schema.COLUMNS WHERE TABLE_SCHEMA=\'udacity\' AND TABLE_NAME=\'EMPLOYEE\' ORDER BY ORDINAL_POSITION',0
+20200611 03:21:40,ip-172-23-1-249,admin,10.2.11.210,22,211,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SELECT * FROM information_schema.STATISTICS WHERE TABLE_SCHEMA=\'udacity\' AND TABLE_NAME=\'EMPLOYEE\' ORDER BY INDEX_NAME,SEQ_IN_INDEX',0
+20200611 03:21:40,ip-172-23-1-249,admin,10.2.11.210,22,212,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SELECT kc.CONSTRAINT_NAME,kc.TABLE_NAME,kc.COLUMN_NAME,kc.ORDINAL_POSITION FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE kc WHERE kc.TABLE_SCHEMA=\'udacity\' AND kc.REFERENCED_TABLE_NAME IS NULL AND kc.TABLE_NAME=\'EMPLOYEE\' ORDER BY kc.CONSTRAINT_NAME,kc.ORDINAL_POSITION',0
+20200611 03:21:40,ip-172-23-1-249,admin,10.2.11.210,22,213,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - Metadata */ SHOW CREATE TABLE `udacity`.`EMPLOYEE`',0
+20200611 03:21:40,ip-172-23-1-249,admin,10.2.11.210,23,214,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ SHOW WARNINGS',0
+
+20200611 03:23:10,ip-172-23-1-249,admin,10.2.11.210,23,296,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ select @@session.tx_read_only',0
+20200611 03:23:10,ip-172-23-1-249,admin,10.2.11.210,23,298,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ INSERT into EMPLOYEE (NAME) values (\'Bob Smith\')',1290
+20200611 03:23:10,ip-172-23-1-249,admin,10.2.11.210,23,299,QUERY,udacity,'/* ApplicationName=DBeaver 7.1.0 - SQLEditor <Script.sql> */ SHOW WARNINGS',0
+

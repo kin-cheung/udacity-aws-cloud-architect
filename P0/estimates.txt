@@ -1,0 +1,11 @@
+1. Minimum RTO for a single AZ outage
+The platform can substand a single AZ outage and operate as normal 
+	
+2. Minimum RTO for a single region outage
+The platform can achieve a RTO of 5 minutes for a single region outage due to the fact that promoting the read-only replica to read-write will take some time
+	
+3. Minimum RPO for a single AZ outage
+A single AZ outage might incur subsecond data loss since the latency between AZs should be within a few milliseconds, so a minimum RPO for a single AZ outage is around 1 second.
+	
+4. Minimum RPO for a single region outage
+The platform might suffer data loss due to replication lag between regions in the middle of a region outage and severity can vary significantly in terms of the diffeneces in region distance and network latency. In the best case scenerio, we can assume that the platform should only suffer less than a minute of data loss.
