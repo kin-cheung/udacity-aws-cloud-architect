@@ -1,0 +1,46 @@
+Event ID,Event time,User name,Event name,Resource type,Resources,AWS access key,AWS region,Error code,Source IP address
+68bdf3c4-5e9d-4b05-b37b-eec4c314aa52,"2020-06-13, 01:13:02 AM",Administrator,GetAccountPasswordPolicy,,,,us-east-1,,1.64.208.108
+a34cd39e-300c-420f-b1f1-0db15b1573bb,"2020-06-13, 01:13:02 AM",Administrator,CreateLoginProfile,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""}]",,us-east-1,,1.64.208.108
+2177c6f5-4239-43e3-b186-5676a180d2b7,"2020-06-13, 01:13:01 AM",Administrator,AddUserToGroup,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,1.64.208.108
+6dede4f9-d8f4-4bad-bf67-b48b4e4f478b,"2020-06-13, 01:13:01 AM",Administrator,GetPolicy,,,,us-east-1,,1.64.208.108
+991bb5d9-67bf-4da7-b6ba-54186d3f5237,"2020-06-13, 01:13:01 AM",Administrator,ListUsers,,,,us-east-1,,1.64.208.108
+a895facf-baa9-4f75-922a-ca1f6a62a8a7,"2020-06-13, 01:13:01 AM",Administrator,ListGroupsForUser,,,,us-east-1,,1.64.208.108
+cc5f88cd-5279-4416-a6c8-e9c05679c617,"2020-06-13, 01:13:01 AM",Administrator,AttachUserPolicy,IAM User and 1 more,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/IAMUserChangePassword""}]",,us-east-1,,1.64.208.108
+e7df0f37-e6ce-4f49-9423-cdaf94554a14,"2020-06-13, 01:13:00 AM",Administrator,CreateUser,IAM User,"[{""resourceType"":""AWS::IAM::User"",""resourceName"":""CloudTrail""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""AIDA4E5Q7FKG4HU5AHEO7""},{""resourceType"":""AWS::IAM::User"",""resourceName"":""arn:aws:iam::835205409421:user/CloudTrail""}]",,us-east-1,,1.64.208.108
+2816126b-9862-432f-b004-6bc058404022,"2020-06-13, 01:12:38 AM",Administrator,ListAttachedGroupPolicies,,,,us-east-1,,1.64.208.108
+4e6a6ce6-2250-480b-a94c-a6df1697b0a8,"2020-06-13, 01:12:38 AM",Administrator,ListAttachedGroupPolicies,,,,us-east-1,,1.64.208.108
+cbd974f2-660d-4a79-980e-1328cf610d7b,"2020-06-13, 01:12:38 AM",Administrator,ListAttachedGroupPolicies,,,,us-east-1,,1.64.208.108
+343efb31-d4ee-4256-ba9a-174bfbc92033,"2020-06-13, 01:11:49 AM",Administrator,ListPolicies,,,,us-east-1,,1.64.208.108
+fbc162bd-c85b-4a15-b015-569feb1b3ad8,"2020-06-13, 01:11:49 AM",Administrator,ListGroups,,,,us-east-1,,1.64.208.108
+b18d3a63-1ed7-402d-bf9e-98150d4cb3cc,"2020-06-13, 01:11:48 AM",Administrator,ListUsers,,,,us-east-1,,1.64.208.108
+c80f9934-ad42-4007-8294-85a6f919ca93,"2020-06-13, 01:11:48 AM",Administrator,ListUsers,,,,us-east-1,,1.64.208.108
+008c7017-fa6a-46bc-b333-3f6132a12021,"2020-06-13, 01:11:43 AM",Administrator,ListGroups,,,,us-east-1,,1.64.208.108
+a452e0b6-9b5e-49e5-a00f-c6c79de3958a,"2020-06-13, 01:11:42 AM",Administrator,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/job-function/Billing""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""}]",,us-east-1,,1.64.208.108
+d66eb264-acd1-42b0-aaaa-47d0536f4aca,"2020-06-13, 01:11:42 AM",Administrator,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::835205409421:group/Reviewers""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPA4E5Q7FKGZZFXEKYSC""}]",,us-east-1,,1.64.208.108
+cab892f3-02f4-48cd-810b-5272c01f6de3,"2020-06-13, 01:11:36 AM",Administrator,ListPolicies,,,,us-east-1,,1.64.208.108
+104e8c2c-f02e-4885-a5dc-e587b14744f6,"2020-06-13, 01:11:29 AM",Administrator,ListGroups,,,,us-east-1,,1.64.208.108
+6906fac1-24f3-487b-902b-290481a658ad,"2020-06-13, 01:11:29 AM",Administrator,CreateGroup,IAM Group,"[{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""arn:aws:iam::835205409421:group/CloudTrailAdmins""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""AGPA4E5Q7FKG55O4JO5XG""}]",,us-east-1,,1.64.208.108
+beeda102-28b7-4adc-a9d8-247f184a7917,"2020-06-13, 01:11:29 AM",Administrator,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailFullAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,1.64.208.108
+f8d0e50b-5c57-4e8e-9940-5d2d887d5be4,"2020-06-13, 01:11:29 AM",Administrator,AttachGroupPolicy,IAM Policy and 1 more,"[{""resourceType"":""AWS::IAM::Policy"",""resourceName"":""arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess""},{""resourceType"":""AWS::IAM::Group"",""resourceName"":""CloudTrailAdmins""}]",,us-east-1,,1.64.208.108
+64cb8f07-3079-43eb-a873-4025815324aa,"2020-06-13, 01:11:15 AM",Administrator,ListPolicies,,,,us-east-1,,1.64.208.108
+c5c836aa-d19b-403a-95d5-d940f0b476b3,"2020-06-13, 01:11:11 AM",Administrator,ListGroups,,,,us-east-1,,1.64.208.108
+b7094917-47fb-4b52-a1b5-fcb0391fd637,"2020-06-13, 01:10:19 AM",Administrator,GetAccountPasswordPolicy,,,,us-east-1,,1.64.208.108
+fc0661f1-8b71-4d03-883c-149a5073e1e8,"2020-06-13, 01:10:18 AM",Administrator,UpdateAccountPasswordPolicy,,,,us-east-1,,1.64.208.108
+0cab4f28-6d02-421a-b773-81f1ee6de979,"2020-06-13, 01:09:58 AM",Administrator,GetAccountSummary,,,,us-east-1,,1.64.208.108
+a81275a6-7db4-482d-9758-3a3f9825fbdb,"2020-06-13, 01:09:58 AM",Administrator,ListAccountAliases,,,,us-east-1,,1.64.208.108
+b7ea1a56-fe35-4e29-84f1-41da17bf100a,"2020-06-13, 01:09:58 AM",Administrator,ListAccessKeys,,,,us-east-1,,1.64.208.108
+d234984c-5e25-487d-bca4-8692eb84b54d,"2020-06-13, 01:09:58 AM",Administrator,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,1.64.208.108
+dbd43423-f729-4c23-be63-d5120fee1c17,"2020-06-13, 01:09:58 AM",Administrator,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,1.64.208.108
+12535524-e46f-450b-90bf-32352edd437f,"2020-06-13, 01:09:46 AM",Administrator,ListAccountAliases,,,,us-east-1,,1.64.208.108
+62b3bbb2-12cd-449f-ba3d-e132e42542ab,"2020-06-13, 01:09:46 AM",Administrator,ListAccessKeys,,,,us-east-1,,1.64.208.108
+79583c99-cbf5-4e85-88a2-fb62f5e3e68d,"2020-06-13, 01:09:46 AM",Administrator,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,1.64.208.108
+86764005-a422-40f0-9cdf-e3b8bafe16f7,"2020-06-13, 01:09:46 AM",Administrator,GetAccountSummary,,,,us-east-1,,1.64.208.108
+b942d84f-3a24-4495-99f1-dac1cf94e119,"2020-06-12, 10:32:55 PM",Administrator,ListGroups,,,,us-east-1,,1.64.208.108
+c4262456-9b5a-4f95-b67a-2751d6ae5c7b,"2020-06-12, 10:32:55 PM",Administrator,ListUsers,,,,us-east-1,,1.64.208.108
+35c73593-0595-4d58-8267-62c1967b7e46,"2020-06-12, 10:32:54 PM",Administrator,ListUsers,,,,us-east-1,,1.64.208.108
+84c8c71d-2acf-4f7d-a4da-eb34a4ff7c96,"2020-06-12, 10:32:54 PM",Administrator,ListAccessKeys,,,,us-east-1,,1.64.208.108
+9b7d478d-2ad0-4671-885e-0452aae9e5d3,"2020-06-12, 10:32:54 PM",Administrator,ListAccountAliases,,,,us-east-1,,1.64.208.108
+a3d65cbc-7470-434d-a2b8-4376bf2f7a65,"2020-06-12, 10:32:54 PM",Administrator,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,1.64.208.108
+d909ccfd-b0a1-4d15-b946-0c4c467bd746,"2020-06-12, 10:32:54 PM",Administrator,GetAccountPasswordPolicy,,,,us-east-1,NoSuchEntityException,1.64.208.108
+ed7d80a9-227e-4be6-8333-2b60601a616b,"2020-06-12, 10:32:54 PM",Administrator,ListPolicies,,,,us-east-1,,1.64.208.108
+b9fdd166-9565-4b31-a81d-ae5a90218f4b,"2020-06-12, 10:32:53 PM",Administrator,GetAccountSummary,,,,us-east-1,,1.64.208.108
