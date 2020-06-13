@@ -1,9 +1,9 @@
 ### Increased Cost Estimate Rationale
 
-## Task 2.2
+#### Task 2.2
 Your budget has been reduced from $8,000-$10,000 to a maximum of $6,500. What services will you modify to meet this new budget?
 
-# Rationale
+#### Rationale
 In order to meet the new budget reducing from maximum $10,000 to a maximum of %6,500, I did the following changes to the initial cost estimate.
 1. Decreased the number of database snapshots from 2 to 1 and changed the frequency of snapshots taken from 2x daily to daily. Taking database snapshots is imparative in disaster recovery, but we can suvive having a single snapshot daily rather than twice daily.
 2. Took advantage of the pricing model of standard reserved instances and commited to a reservation term of 1 year with monthly payment option for ES2 instances and RDS instances
