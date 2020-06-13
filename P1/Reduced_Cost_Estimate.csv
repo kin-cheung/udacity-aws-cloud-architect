@@ -1,10 +1,11 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (Ohio),S3 Standard,0,116.3,1395.60,USD,S3 Standard storage (4000 GB per month)
-My Estimate,US East (Ohio),Data Transfer,0,0,0.00,USD,Data Transfer
-My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,200.7,2408.40,USD,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),Elastic Load Balancing,0,56.21,674.52,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),Amazon EC2,108.62,25.05,409.22,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (40 GB), Instance type (t3.micro)"
-My Estimate,US East (N. Virginia),Amazon RDS for MySQL,400,79.288,1351.46,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (db.t3.small)"
+My Estimate,US East (Ohio),S3 Standard,0,845.76,10149.12,USD,S3 Standard storage (5 TB per month)
+My Estimate,US East (Ohio),S3 One Zone - Infrequent Access,0,129.4,1552.80,USD,S3 One Zone-IA storage (10 TB per month)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1145.7,13748.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,1200.85,14410.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Amazon EC2,868.99,232.42000000000002,3658.03,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (200 GB), Instance type (t3.medium)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,2312,1636.56,21950.72,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (db.r5.large), Additional backup storage (10 TB)"
+My Estimate,US West (N. California),Amazon Elastic Block Store (EBS),0,1157,13884.00,USD,"Number of instances (1), Average duration each instance runs (730 hours per month), Storage amount (500 GB), Snapshot Frequency (Daily), Amount changed per snapshot (500 GB), Number of snapshots to restore (1)"
 
 
 

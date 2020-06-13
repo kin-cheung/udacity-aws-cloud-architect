@@ -1,12 +1,10 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (N. Virginia),S3 Standard,0,140.1,1681.20,USD,S3 Standard storage (5000 GB per month)
-My Estimate,US East (N. Virginia),Data Transfer,0,0,0.00,USD," Inbound (from: Internet) 0 GB per month 
- Outbound (to: Amazon Cloud Front) 0 TB per month 
-"
-My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,335.7,4028.40,USD,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),Elastic Load Balancing,0,56.21,674.52,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),Amazon EC2,0,100.74000000000001,1208.88,USD,"Operating system (Linux), Quantity (4), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Instance type (t3.small)"
-My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,145.28,1743.36,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (100 GB)"
+My Estimate,US West (N. California),S3 Standard,0,1646.86,19762.32,USD,S3 Standard storage (15 TB per month)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1415.7,16988.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,1200.85,14410.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Amazon EC2,0,1281.28,15375.36,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (200 GB), Instance type (m5.xlarge)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,2144.64,25735.68,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Additional backup storage (10 TB)"
+My Estimate,US West (N. California),Amazon Elastic Block Store (EBS),0,2224.16,26689.92,USD,"Number of instances (1), Average duration each instance runs (730 hours per month), Storage amount (500 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (500 GB), Number of snapshots to restore (2)"
 
 
 
