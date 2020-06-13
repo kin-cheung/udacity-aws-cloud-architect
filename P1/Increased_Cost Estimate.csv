@@ -5,7 +5,9 @@ My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,722.7,867
 My Estimate,US East (N. Virginia),Elastic Load Balancing,0,616.85,7402.20,USD,Number of Application Load Balancers (2)
 My Estimate,US East (N. Virginia),Amazon EC2,0,3603.84,43246.08,USD,"Operating system (Linux), Quantity (12), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (200 GB), Instance type (m5.2xlarge)"
 My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,7200,86400.00,USD,"Quantity (4), Storage for each RDS instance (Provisioned IOPS SSD (io1)), Storage amount (1 TB), Instance type (db.r5.xlarge), Provisioning IOPS (3000), Additional backup storage (10 TB)"
-My Estimate,US West (N. California),Amazon Elastic Block Store (EBS),0,4309,51708.00,USD,"Number of instances (1), Average duration each instance runs (730 hours per month), Storage amount (1 TB), Snapshot Frequency (Daily), Amount changed per snapshot (1 TB), Number of snapshots to restore (5)"
+My Estimate,US East (N. Virginia),Amazon Elastic Block Store (EBS),0,3659.1,43909.20,USD,"Number of instances (1), Average duration each instance runs (730 hours per month), Storage amount (1 TB), Snapshot Frequency (Daily), Amount changed per snapshot (1 TB), Number of snapshots to restore (5)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,43.8,525.60,USD,"Number of EC2 instances (12), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),AWS Data Transfer,0,276.39,3316.68,USD,"Data Transfer, Data transfer cost (276.39)"
 
 
 

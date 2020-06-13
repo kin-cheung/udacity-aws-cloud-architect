@@ -1,10 +1,13 @@
 Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US West (N. California),S3 Standard,0,1646.86,19762.32,USD,S3 Standard storage (15 TB per month)
-My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,1415.7,16988.40,USD,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),Elastic Load Balancing,0,1200.85,14410.20,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),Amazon EC2,0,1281.28,15375.36,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (200 GB), Instance type (m5.xlarge)"
-My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,2144.64,25735.68,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Additional backup storage (10 TB)"
-My Estimate,US West (N. California),Amazon Elastic Block Store (EBS),0,2224.16,26689.92,USD,"Number of instances (1), Average duration each instance runs (730 hours per month), Storage amount (500 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (500 GB), Number of snapshots to restore (2)"
+My Estimate,US East (N. Virginia),S3 Standard,0,1445.48,17345.76,USD,S3 Standard storage (15 TB per month)
+My Estimate,US East (N. Virginia),S3 One Zone - Infrequent Access,0,614.4,7372.80,USD,S3 One Zone-IA storage (60 TB per month)
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,200.7,2408.40,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,266.45,3197.40,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),Amazon EC2,0,2402.56,28830.72,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (200 GB), Instance type (m5.2xlarge)"
+My Estimate,US East (N. Virginia),Amazon RDS for MySQL,0,2845.4399999999996,34145.28,USD,"Quantity (2), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (db.r5.xlarge), Additional backup storage (10 TB)"
+My Estimate,US East (N. Virginia),Amazon Elastic Block Store (EBS),0,1398.18,16778.16,USD,"Number of instances (1), Average duration each instance runs (730 hours per month), Storage amount (1 TB), Snapshot Frequency (2x Daily), Amount changed per snapshot (100 GB), Number of snapshots to restore (2)"
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,14.6,175.20,USD,"Number of EC2 instances (4), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),AWS Data Transfer,0,470.95,5651.40,USD,"Data Transfer, Data transfer cost (470.95)"
 
 
 
