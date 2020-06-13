@@ -9,3 +9,4 @@ With the budget increased to $20,000. it opens up a lot more options in term of 
 2. Increased EC2 instance type to 'm5.2xlarge' and the maximum number of web and app auto-scalable instances to 12 for better compute performance
 3. Increased RBS instance type to 'db.r5.xlarge' and the number of instances to 4 so that we can have 1 instance for each AZ for the extra read performance and redundancy. In addition, we can provision IOPS to achieve even higher performance in the RDS instances.
 4. Increased S3 standard bucket size as well as S3 IA bucket size to keep a larger amount of aged media files so that users can keep their media contents to a much longer period for themselves as well as their followers.
+4. We can also stay on the On-Demand pricing model without paying anything upfront.
