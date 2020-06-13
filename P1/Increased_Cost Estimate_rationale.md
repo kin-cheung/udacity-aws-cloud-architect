@@ -1,12 +1,11 @@
 ### Increased Cost Estimate Rationale
 
-#### Task 2.2
-Your budget has been reduced from $8,000-$10,000 to a maximum of $6,500. What services will you modify to meet this new budget?
+#### Task 2.3
+Your budget has been increased to $20,000. What resources will you add and why? Think about where to add redundancy and how to improve performance. 
 
 #### Rationale
-In order to meet the new budget reducing to a maximum of $6,500, I did the following changes to the initial cost estimate.
-1. Decreased the number of database snapshots from 2 to 1 and changed the frequency of snapshots taken from 2x daily to daily. Taking database snapshots is imperative in disaster recovery, but we can suvive having a single snapshot daily rather than twice daily.
-2. Took advantage of the pricing model of standard reserved instances and a reservation term of 1 year with monthly payment option for ES2 instances and RDS instances
-3. Scaled down the instance type for EC2 from'm5.xlarge' to 't3.medium'. We can rely on auto-scaling to cope with traffic spikes that are expected to occur during certain times of the day. 
-4. Scaled down the instance type for RDS from 'db.r5.xlarge' to 'db.r5.large'. Although the 'db.r5.large' has less CPU cores and memory, it also comes with identical networking performance and EBS bandwidth. With less budget, it is a more economical choice.
-5. We can move aged media files from standard S3 to S3 IA considering that most of our clients are only interested in posts or media that are posted recently and we can move old files to S3 IA to save on S3 costs
+With the budget increased to $20,000. it opens up a lot more options in term of instance type choices, backups and auto-scaling capacity.
+1. Increased the number of snapshots and also the frequency of snapshots taken so that we can keep multiple snapshots at hourly intervals. In case of incidents, we can recover data that is as fresh as an hour ago.
+2. Increased EC2 instance type to 'm5.2xlarge' and the maximum number of web and app auto-scalable instances to 12 for better compute performance
+3. Increased RBS instance type to 'db.r5.xlarge' and the number of instances to 4 so that we can have 1 instance for each AZ for the extra read performance and redundancy. In addition, we can provision IOPS to achieve even higher performance in the RDS instances.
+4. Increased S3 standard bucket size as well as S3 IA bucket size to keep a larger amount of aged media files so that users can keep their media contents to a much longer period for themselves as well as their followers.
