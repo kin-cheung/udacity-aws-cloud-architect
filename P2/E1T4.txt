@@ -1,0 +1,7 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+# Poor practice 1
+The S3 buckets have no version control and do not have server-side encryption enabled so attackers who have access to those buckets are able to download and view contents in them and if they decide to delete everything in those bucket, everything will be deleted permanently.
+
+# Poor practice 2
+The web service instance should not be placed in the public subnet and should be moved to the private subnet and a read-only access to the S3 buckets should be enforced for the web service instance.
