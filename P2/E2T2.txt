@@ -1,3 +1,23 @@
 Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
 
 Bonus - provide recommendations on how to remediate the vulnerabilities.
+
+1. securityhub-s3-bucket-logging-enabled-f94c8247
+
+Remeidation: Enable logging for S3 bucket
+
+2. securityhub-restricted-ssh
+
+Remeidation: Restrict incoming IP addresses for the incoming SSH traffic by only allowing certain incoming IP addresses in the security group
+
+3. securityhub-cloud-trail-encryption-enabled
+
+Remeidation: Enable encryption to the cloud trail
+
+4. securityhub-vpc-flow-logs-enabled
+
+Remeidation: Enable VPC flow logs
+
+5. securityhub-restricted-rdp
+
+Remeidation: Deny the incoming RDP traffic from 0.0.0.0/0 in the security group

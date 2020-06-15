@@ -1,0 +1,20 @@
+
+# What additional architectural change can be made to reduce the internet facing attack surface of the web application instance.
+
+1. Move the web service instance to a private subnet
+2. Apply least access to the network ACL inbound rules and have separate network ACL for public subnets and private subnets
+3. Add WAF to block common attacks
+
+# Assuming the IAM permissions for the S3 bucket are still insecure, would creating VPC private endpoints for S3 prevent the unauthorized access to the secrets bucket.
+
+Yes, enable to block all public access to the S3 bucket and create VPC private endpoints for S3 so that access to the S3 bucket can be routed within AWS without going out to the internet
+
+
+# Will applying default encryption setting to the s3 buckets encrypt the data that already exists?
+No, enabling default encryption doesn't change the encryption of objects that are already in the bucket
+
+# The changes you made above were done through the console or CLI; describe the outcome if the original cloud formation templates are applied to this environment?
+
+I have done most of the changes through the console.
+
+If the original cloud formation templates are applied to this environment, the public facing instances might get attacked e.g. SSH brute force attacks and the attackers will gain access to the instances and subsequently also be able to view and downlad files from the S3 buckets which can be directly accessed from any of the instances in the environment. Thus, the secret recipe that is not supposed to be open for everyone might get stolen and become free to download from other websites. As a result, the website might lose all of its preimum users.

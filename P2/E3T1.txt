@@ -1,3 +1,7 @@
 # Describe GuardDuty findings that were detected related to the brute force attack
 
 # Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+
+
+A number of UnauthorizedAccess:EC2/SSHBruteForce attacks were detected by GuardDuty. A UnauthorizedAccess:EC2/SSHBruteForce attack indicates that the EC2 instance has been involved in SSH brute force attacks. There are 2 different levels of severity that were detected, low and high. The events that were classified as low are brute force attacks that are aimed at the EC2 instances and the events with high severity indicate that the instances are used to perform the brute force attacks.
+

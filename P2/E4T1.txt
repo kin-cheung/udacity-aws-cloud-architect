@@ -1,0 +1,15 @@
+
+
+# Identify 2-3 changes that can be made to our environment to prevent an ssh brute force attack from the internet.
+
+1. Restrict incoming SSH traffic only from designated IP addresses
+2. Disable SSH password login and consider to allow only SSH with keypair to internet facing instances
+3. Disable SSHd in internet facing instances and use session manager to accesss these instances instead
+
+# Neither instance should have had access to the secret recipes bucket, in the even that instance API credentials were compromised how could we have prevented access to sensitive data.
+
+1. Turn on encryption to the secret recipes bucket so that even the secret recipes are stolen, attacker won't be able to view their contents.
+
+2. Move the web service instance to the private subnet and only allow access to the secret recipes bucket from the application instances by associate a permissible role to the web service instance
+
+3. Associate the application load balancer instance and the attack simulation instance with a role that do not have access to the secret recipes bucket, so even when attackers gain access to any of those instances, they still won't have access to the secret recipes bucket. 
