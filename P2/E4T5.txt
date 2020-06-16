@@ -1,0 +1,6 @@
+## Brainstorm and list additional hardening suggestions aside from those implemented that would protect the data in this environment.
+
+1. Apply least access rules to NACLs
+2. Remove access keys
+3. Add a jump host or VPN endpoints for remote access
+4. Add VPC endpoints to access S3 bucket from web app instances within AWS 
