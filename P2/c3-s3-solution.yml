@@ -3,7 +3,7 @@ Description:  This template deploys an S3 bucket for storage of recipes.
 Parameters:
   KMSMasterKeyID:
     Type: String
-    Description: "Name of an existing KMS customer managed Key you will use to encrypt/decrypt S3 bucket."
+    Description: "Name of an existing KMS customer managed Key you will use to encrypt/decrypt S3 bucket"
 
 Resources:
   S3BucketRecipesFree:
