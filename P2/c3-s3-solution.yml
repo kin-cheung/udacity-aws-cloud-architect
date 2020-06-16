@@ -1,14 +1,35 @@
 Description:  This template deploys an S3 bucket for storage of recipes.
 
+Parameters:
+  KMSMasterKeyID:
+    Type: String
+    Description: "Name of an existing KMS customer managed Key you will use to encrypt/decrypt S3 bucket."
+
 Resources:
   S3BucketRecipesFree:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: !Join [ "-", [ "cand-c3-free-recipes", !Ref 'AWS::AccountId' ] ]
+      BucketEncryption:
+        ServerSideEncryptionConfiguration: 
+            ServerSideEncryptionByDefault:
+                KMSMasterKeyID: !Ref KMSMasterKeyID
+            SSEAlgorithm:
+                aws:kms
+      VersioningConfiguration:
+        Status: Enabled
   S3BucketRecipesSecret:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: !Join [ "-", [ "cand-c3-secret-recipes", !Ref 'AWS::AccountId' ] ]
+      BucketEncryption:
+        ServerSideEncryptionConfiguration: 
+            ServerSideEncryptionByDefault:
+                KMSMasterKeyID: !Ref KMSMasterKeyID
+            SSEAlgorithm:
+                aws:kms
+      VersioningConfiguration:
+        Status: Enabled
   S3BucketVPCFlowLogs:
       Type: AWS::S3::Bucket
       Properties:
