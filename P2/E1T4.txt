@@ -2,11 +2,21 @@ Based on the architecture diagram, and the steps you have taken so far to upload
 
 # Poor practice 1
 An access key is used to upload data and it is a security vulnerability since the access key is stored locally on the user's computer.
-p.s. Actually I didn't use an access key to upload files in the exercise, because I had deleted all created acccess keys to comply with security compliances and didn't realise it was supposed to show a poor practice.
 
 # Poor practice 2
-1st submission: The web service instance should not be placed in the public subnet and should be moved to the private subnet and a read-only access to the S3 buckets should be enforced for the web service instance.
+Use HTTP instead of HTTPS. HTTPS can be used to secure the communication between users and the application to prevent man-in-the-middle attacks etc.
 
-2nd submission: So is that actually a web server (e.g. apache) or a web service instance (e.g. REST API)? I am not sure if it is a common practice in AWS, but in the old days, we put a reverse proxy, e.g. apache server or nginx, in DM zone and place web app servers (e.g. tomcat) in a private segment. At first, I thought an application load balancer in this project serves such purpose but then I realised that an ALB is not actually an instance itself but a service, so I guess putting a web app instance in a public subnet is a thing in AWS and putting it in a private subnet is impossible?
+# Poor practice 3
+Avoid using CLI to upload data to S3. Using a browser to do that is more secure.
 
-So another poor practice about accessing the application web service is that HTTP is used instead of HTTPS. HTTPS can be used to secure the communication between users and the application to prevent man-in-the-middle attacks etc.
+# Poor practice 4
+S3 bucket in this case should not allow public direct access, so block all public access should be enabled.
+
+# Poor practice 5
+Although a profile role has been assigned to the web service instance but the policy assigned to the role allows full access to the S3 bucket that should be restricted to GetObject only
+
+p.s. One thing I don't understand here is what is supposed to be wrong with the way the application web service is accessed? Accessing the URL http://c1-web-service-alb-436165273.us-east-1.elb.amazonaws.com/free_recipe in a  browser is bad? HTTP is bad? or else? because I don't see anything wrong with the way the application web service is accessed.
+
+Also, I know that using CLI to upload data to S3 is bad because we need to use an API key explicitly, so what is the preferred way? I have googled about it and people on the internet recommand using AWS console with a browser to do that and actually it is how I uploaded the files for this exercise too.
+
+Thanks
