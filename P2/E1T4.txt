@@ -1,7 +1,12 @@
 Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
 
 # Poor practice 1
-The S3 buckets have no version control and do not have server-side encryption enabled so attackers who have access to those buckets are able to download and view contents in them and if they decide to delete everything in those bucket, everything will be deleted permanently.
+An access key is used to upload data and it is a security vulnerability since the access key is stored locally on the user's computer.
+p.s. Actually I didn't use an access key to upload files in the exercise, because I had deleted all created acccess keys to comply with security compliances and didn't realise it was supposed to show a poor practice.
 
 # Poor practice 2
-The web service instance should not be placed in the public subnet and should be moved to the private subnet and a read-only access to the S3 buckets should be enforced for the web service instance.
+1st submission: The web service instance should not be placed in the public subnet and should be moved to the private subnet and a read-only access to the S3 buckets should be enforced for the web service instance.
+
+2nd submission: So is that actually a web server (e.g. apache) or a web service instance (e.g. REST API)? I am not sure if it is a common practice in AWS, but in the old days, we put a reverse proxy, e.g. apache server or nginx, in DM zone and place web app servers (e.g. tomcat) in a private segment. At first, I thought an application load balancer in this project serves such purpose but then I realised that an ALB is not actually an instance itself but a service, so I guess putting a web app instance in a public subnet is a thing in AWS and putting it in a private subnet is impossible?
+
+So another poor practice about accessing the application web service is that HTTP is used instead of HTTPS. HTTPS can be used to secure the communication between users and the application to prevent man-in-the-middle attacks etc.
