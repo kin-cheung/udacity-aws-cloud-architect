@@ -5,3 +5,9 @@
 
 A number of UnauthorizedAccess:EC2/SSHBruteForce attacks were detected by GuardDuty. A UnauthorizedAccess:EC2/SSHBruteForce attack indicates that the EC2 instance has been involved in SSH brute force attacks. There are 2 different levels of severity that were detected, low and high. The events that were classified as low are brute force attacks that are aimed at the EC2 instances and the events with high severity indicate that the instances are used to perform the brute force attacks.
 
+GuardDuty uses the following data source to detect unauthorized and unexpected activity in an AWS environment.
+ - AWS CloudTrail event logs
+ - VPC Flow Logs
+ - DNS logs
+ 
+Since VPC flow logs is enabled in the VPC in this exercise, it is where GuardDuty gets the information it needs to detect the SSHBruteForce attacks by analysing the IP traffic going to and from the EC2 netork interfaces in the VPC
